@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>FEM | News landing page</title>
+  </head>
+  <body>
+    <nav class="nav" aria-label="Primary Navigation">
+      <div class="container flex">
+        <a href="/">
+          <img class="nav__logo" src="./images/logo.svg" alt="Brand Logo" />
+        </a>
+
+        <ul class="nav__links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
+
+        <button class="toggle-btn" aria-label="Toggle Menu"></button>
+
+        <ul class="nav__menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
+
+        <div class="overlay"></div>
+      </div>
+    </nav>
+
+    <main class="main">
+      <div class="container grid">
+        <article class="intro">
+          <picture class="intro__image">
+            <source
+              media="(min-width: 768px)"
+              srcset="./images/image-web-3-desktop.jpg"
+            />
+            <img src="./images/image-web-3-mobile.jpg" alt="Web 3 image" />
+          </picture>
+
+          <div class="intro__text">
+            <h1 class="intro__text-heading">The Bright Future of Web 3.0?</h1>
+
+            <div class="intro__text-content">
+              <p>
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hand of the people, But
+                is it really fulfilling its promises
+              </p>
+              <a href="#" class="cta btn">Read More</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="new">
+          <h2 class="new__heading">New</h2>
+
+          <div class="new__content">
+            <div class="new__content-1">
+              <h3>Hydrogen vs Electric cars</h3>
+              <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            </div>
+            <div class="new__content-2">
+              <h3>The Downside of AI artistry</h3>
+              <p>What are the possible adverse effects of on-demand AI image generation?</p>
+            </div>
+            <div class="new__content-3">
+              <h3>Is VC Funding Drying Up?</h3>
+              <p>Private funding by VC firms is down by 50% YOY. We take a look at what that means</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="blog grid">
+          <div class="blog__post">
+            <img src="./images/image-retro-pcs.jpg" alt="retro pc images">
+
+            <div class="blog__post-description">
+              <h2>01</h2>
+              <h3>Reviving Retro PCs</h3>
+              <p>What happens when old PCs are given modern upgrades?</p>
+            </div>
+          </div>
+
+          <div class="blog__post">
+            <img src="./images/image-top-laptops.jpg" alt="Laptop top">
+
+            <div class="blog__post-description">
+              <h2>02</h2>
+              <h3>Top 10 Laptops of 2022</h3>
+              <p>Our best picks for various needs and budgets</p>
+            </div>
+          </div>
+
+          <div class="blog__post">
+            <img src="./images/image-gaming-growth.jpg" alt="gaming pad">
+
+            <div class="blog__post-description">
+              <h2>03</h2>
+              <h3>The Growth of Gaming</h3>
+              <p>How the pandemic has sparked fresh opportunities</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </main>
+  </body>
+</html>
